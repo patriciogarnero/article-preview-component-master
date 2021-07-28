@@ -105,9 +105,9 @@ width: 15%;
   top: 24%;
 }
 
-.hidden {
+/* .hidden {
   display: none;
-}
+} */
 
 @media screen and (min-width: 400px;) {
   .share_sheet {
@@ -125,6 +125,7 @@ width: 15%;
     margin-top: 5%;
   }
   .container {
+    position: relative;
     flex-direction: row;
     margin: 5rem 15rem 15rem 15rem;
   }
@@ -158,8 +159,8 @@ width: 15%;
       justify-content: space-around;
       width: 15%;
       position: absolute;
-      top: 17.5rem;
-      left: 64rem;
+      top: 50%;
+      right: -4%;
       padding: 0.5rem;
       border-radius: 10px;
     }
@@ -172,7 +173,7 @@ width: 15%;
       content: "";
       position: absolute;
       top: 4rem;
-      right: 5.5rem;
+      right: 40%;
       border-top: 20px solid hsl(214, 17%, 51%);
       border-left: 20px solid transparent;
       border-right: 20px solid transparent;
